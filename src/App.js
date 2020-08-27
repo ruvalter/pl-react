@@ -14,7 +14,7 @@ function App() {
         <nav>
           <ul className="navbar-nav">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Ínicio</Link>
             </li>
             <li>
               <Link to="/checkout">
