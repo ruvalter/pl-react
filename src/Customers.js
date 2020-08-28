@@ -78,6 +78,8 @@ function SaveCard(props) {
     if (user) {
       const paymentMethods = await fetchFromAPI('wallet', { method: 'GET' });
       setWallet(paymentMethods);
+      const courses = await fetchFromAPI('courses', { method: 'GET' });
+      console.log('courses', courses);
     }
   };
 
